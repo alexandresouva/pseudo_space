@@ -7,25 +7,25 @@ import surpriseMe from '../../images/icons/surpreenda-me-inativo.png';
 
 const Sidebar = () => {
   return (
-    <nav className={styles.menu}>
-      <ul className={styles.menu__list}>
-        <li className={styles.menu__item}>
+    <nav className={styles.sidebar}>
+      <ul className={styles.sidebar__list}>
+        <li className={styles.sidebar__item}>
           <img src={home} alt="" />
           <a href="#">Início</a>
         </li>
-        <li className={styles.menu__item}>
+        <li className={styles.sidebar__item}>
           <img src={mostVisited} alt="" />
           <a href="#">Mais vistas</a>
         </li>
-        <li className={styles.menu__item}>
+        <li className={styles.sidebar__item}>
           <img src={mostLiked} alt="" />
           <a href="#">Mais curtidas</a>
         </li>
-        <li className={styles.menu__item}>
+        <li className={styles.sidebar__item}>
           <img src={news} alt="" />
           <a href="#">Novas</a>
         </li>
-        <li className={styles.menu__item}>
+        <li className={styles.sidebar__item}>
           <img src={surpriseMe} alt="" />
           <a href="#">Surpreenda-me</a>
         </li>
