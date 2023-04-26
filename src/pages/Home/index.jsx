@@ -2,6 +2,7 @@ import styles from './Home.module.scss';
 import Header from '../../components/Header';
 import Sidebar from '../../components/Sidebar';
 import banner from '../../assets/images/banner.png';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 };

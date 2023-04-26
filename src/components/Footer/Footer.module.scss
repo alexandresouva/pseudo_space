@@ -1,0 +1,38 @@
+@import '../../styles/variables';
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 24px 32px;
+  margin-top: 24px;
+
+  font-family: $font-normal;
+  background: linear-gradient($medium-blue, $dark-blue);
+  box-sizing: border-box;
+
+  &__icons {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 0;
+  }
+
+  &__icon {
+    list-style: none;
+  }
+
+  &__credits {
+    color: $text-color;
+
+    a {
+      font-family: $font-normal;
+      font-weight: bold;
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+}
