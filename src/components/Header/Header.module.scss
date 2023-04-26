@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -20,8 +22,8 @@
       border-radius: 10px;
       z-index: -1;
       border: 2px solid transparent;
-      border: linear-gradient(to right, #c98cf1, #7b78e5);
-      background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
+      border: linear-gradient(to right, $pink, $purple);
+      background: linear-gradient(to right, $pink, $purple) border-box;
       mask: initial;
       -webkit-mask: linear-gradient(#fff 0 0) padding-box,
         linear-gradient(#fff 0 0);
@@ -33,14 +35,14 @@
   &__input {
     width: 80%;
     height: 30px;
-    color: #f6f6f6;
+    color: $text-color-v2;
     font-size: 1rem;
     border: none;
     background-color: transparent;
     outline: 0;
 
     &::placeholder {
-      color: #777;
+      color: $placeholder-color;
       font-size: 1rem;
     }
   }

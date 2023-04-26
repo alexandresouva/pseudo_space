@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import '../../styles/variables';
 
 .sidebar {
   &__list {
@@ -26,15 +26,15 @@
     a {
       text-decoration: none;
       font-size: 1.125rem;
-      color: #d9d9d9;
-      font-family: 'Open Sans';
+      color: $text-color;
+      font-family: $font-normal;
       width: max-content;
     }
 
     &:first-child {
       a {
         font-weight: 700;
-        color: #7b78e5;
+        color: $purple;
       }
     }
   }

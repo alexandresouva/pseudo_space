@@ -1,7 +1,7 @@
 import styles from './Home.module.scss';
 import Header from '../../components/Header';
 import Sidebar from '../../components/Sidebar';
-import banner from '../../images/banner.png';
+import banner from '../../assets/images/banner.png';
 
 const Home = () => {
   return (

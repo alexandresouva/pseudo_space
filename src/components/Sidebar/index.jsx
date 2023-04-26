@@ -1,9 +1,9 @@
 import styles from './Sidebar.module.scss';
-import home from '../../images/icons/home-ativo.png';
-import mostVisited from '../../images/icons/mais-vistas-inativo.png';
-import mostLiked from '../../images/icons/mais-curtidas-inativo.png';
-import news from '../../images/icons/novas-inativo.png';
-import surpriseMe from '../../images/icons/surpreenda-me-inativo.png';
+import home from '../../assets/images/icons/home-ativo.png';
+import mostVisited from '../../assets/images/icons/mais-vistas-inativo.png';
+import mostLiked from '../../assets/images/icons/mais-curtidas-inativo.png';
+import news from '../../assets/images/icons/novas-inativo.png';
+import surpriseMe from '../../assets/images/icons/surpreenda-me-inativo.png';
 
 const Sidebar = () => {
   return (
