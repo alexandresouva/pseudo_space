@@ -3,24 +3,22 @@ import Header from '../../components/Header';
 import Sidebar from '../../components/Sidebar';
 import banner from '../../assets/images/banner.png';
 import Footer from '../../components/Footer';
+import Gallery from '../../components/Gallery';
 
 const Home = () => {
   return (
     <>
       <Header />
-      <main>
-        <section className={styles.main}>
-          <Sidebar />
-          <div className={styles.main__image}>
+      <section className={styles['main-content']}>
+        <Sidebar />
+        <main className={styles.gallery}>
+          <div className={styles.gallery__image}>
             <h1>A galeria mais completa do espaço</h1>
-            <img
-              className={styles.main__image}
-              src={banner}
-              alt="A imagem da terra vista do espaço"
-            />
+            <img src={banner} alt="A imagem da terra vista do espaço" />
           </div>
-        </section>
-      </main>
+          <Gallery />
+        </main>
+      </section>
       <Footer />
     </>
   );

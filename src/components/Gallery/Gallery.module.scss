@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.gallery {
+  font-family: $font-normal;
+  margin-bottom: 2rem;
+
+  h2 {
+    color: $purple;
+    font-size: 24px;
+  }
+}

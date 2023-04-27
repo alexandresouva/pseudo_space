@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $text-color;
+  font-family: $font-normal;
+  font-size: 16px;
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  &__list {
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      background-color: $tag-color;
+      padding: 6px 10px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $tag-color-hover;
+        border: 1px solid $text-color;
+      }
+    }
+  }
+}

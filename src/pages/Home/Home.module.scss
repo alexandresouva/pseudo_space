@@ -1,35 +1,31 @@
 @import '../../styles/variables';
-main {
+
+.main-content {
+  display: flex;
+  gap: 80px;
   margin: 0 24px;
   margin-right: 32px;
 }
 
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 64px;
-  margin-top: 2rem;
-
+.gallery {
   &__image {
-    width: 88%;
+    position: relative;
+
     img {
       width: 100%;
       height: 288px;
     }
+  }
 
-    position: relative;
-
-    h1 {
-      position: absolute;
-      z-index: 1;
-      color: $text-color;
-      font-family: $font-bold;
-      font-size: 2.5rem;
-      width: 401px;
-      height: 144px;
-      top: 75px;
-      left: 44px;
-    }
+  h1 {
+    position: absolute;
+    z-index: 1;
+    color: $text-color;
+    font-family: $font-bold;
+    font-size: 2.5rem;
+    width: 401px;
+    height: 144px;
+    top: 75px;
+    left: 44px;
   }
 }

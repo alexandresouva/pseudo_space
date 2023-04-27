@@ -1,0 +1,11 @@
+@import '/src/styles/variables';
+
+.cards {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
