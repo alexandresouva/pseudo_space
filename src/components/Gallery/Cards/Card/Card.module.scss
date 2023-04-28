@@ -3,9 +3,59 @@
 .card {
   background-color: $dark-blue;
   border-radius: 20px;
-  height: 280px;
-  width: 285px;
   cursor: pointer;
+  margin-bottom: 6px;
+
+  &__image {
+    height: 75%;
+    width: 100%;
+  }
+
+  &__description {
+    background-color: $dark-blue;
+    padding: 10px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    position: relative;
+    top: -5px;
+    padding-bottom: 15px;
+
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1rem;
+      box-sizing: border-box;
+      width: 100%;
+
+      p {
+        margin: 0;
+        margin-top: 0.5rem;
+        color: $light-gray;
+      }
+
+      span {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0 16px;
+    font-size: 1.15rem;
+    color: $text-color;
+    font-family: $font-bold;
+  }
 
   &:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -14,43 +64,4 @@
     transform: scale(1.025);
     transition: 0.18s;
   }
-
-  div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    box-sizing: border-box;
-    width: 100%;
-
-    p {
-      margin: 0;
-      margin-top: 0.5rem;
-      color: $light-gray;
-    }
-
-    span {
-      width: 20%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      img {
-        cursor: pointer;
-      }
-    }
-  }
-}
-
-.card__image {
-  height: 75%;
-  width: 100%;
-}
-
-.card__title {
-  margin: 0;
-  padding: 0 16px;
-  font-size: 1.25rem;
-  color: $text-color;
-  font-family: $font-bold;
 }
