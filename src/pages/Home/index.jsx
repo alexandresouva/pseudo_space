@@ -1,10 +1,10 @@
 import styles from './Home.module.scss';
-import Header from '../../components/Header';
-import Sidebar from '../../components/Sidebar';
-import banner from '../../assets/images/banner.png';
-import Footer from '../../components/Footer';
-import Gallery from '../../components/Gallery';
-import Popular from '../../components/Popular';
+import Header from 'components/Header';
+import Sidebar from 'components/Sidebar';
+import banner from 'assets/images/banner.png';
+import Footer from 'components/Footer';
+import Gallery from 'components/Gallery';
+import Popular from 'components/Popular';
 
 const Home = () => {
   return (

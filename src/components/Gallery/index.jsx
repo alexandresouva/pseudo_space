@@ -1,4 +1,4 @@
-import Tags from '../Tags';
+import Tags from 'components/Tags';
 import styles from './Gallery.module.scss';
 import Cards from './Cards';
 import photos from './photos.json';

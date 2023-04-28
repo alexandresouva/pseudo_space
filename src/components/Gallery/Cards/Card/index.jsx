@@ -1,6 +1,6 @@
 import styles from './Card.module.scss';
-import favoriteIcon from '../../images/favorito.png';
-import openIcon from '../../images/open.png';
+import favoriteIcon from 'assets/images/icons/favorito.png';
+import openIcon from 'assets/images/icons/open.png';
 
 const Card = ({ photo }) => {
   return (
