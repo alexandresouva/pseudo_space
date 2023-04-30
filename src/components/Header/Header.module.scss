@@ -22,11 +22,11 @@
       border-radius: 10px;
       z-index: -1;
       border: 2px solid transparent;
-      border: linear-gradient(to right, $pink, $purple);
-      background: linear-gradient(to right, $pink, $purple) border-box;
-      mask: initial;
-      -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
+      border: 1px solid $purple;
+      // background: linear-gradient(to right, $pink, $purple) border-box;
+      // mask: initial;
+      // -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+      //   linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
       mask-composite: exclude;
     }
@@ -49,5 +49,16 @@
 
   img {
     cursor: pointer;
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+
+    &__container {
+      width: 80%;
+    }
   }
 }

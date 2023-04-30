@@ -37,3 +37,43 @@
   justify-content: space-between;
   gap: 44px;
 }
+
+@media (max-width: 1000px) {
+  .page-content {
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .gallery {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-content {
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .main {
+    &__banner {
+      img {
+        display: none;
+      }
+    }
+
+    h1 {
+      position: relative;
+      font-size: 2rem;
+      height: auto;
+      width: auto;
+      top: 0;
+      left: 0;
+      text-align: center;
+    }
+  }
+
+  .gallery {
+    flex-direction: column-reverse;
+  }
+}
